@@ -9,6 +9,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/NacosApplication18003/pom.xml" />
+        <option value="$PROJECT_DIR$/NacosApplication18004/pom.xml" />
         <option value="$PROJECT_DIR$/Provider11001/pom.xml" />
       </set>
     </option>

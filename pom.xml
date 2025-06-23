@@ -15,6 +15,10 @@
         <module>ConsumerApplication16001</module>
         <module>ProviderApplication11001</module>
         <module>EurekaApplication18001</module>
+        <module>NacosConsumerApplication16002</module>
+        <module>NacosConsumerApplication16003</module>
+        <module>NacosProviderApplication11002</module>
+        <module>NacosProviderApplication11003</module>
     </modules>
 
     <properties>
@@ -28,7 +32,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>2024.0.0</version>
+                <version>2024.0.1</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -41,7 +45,14 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>3.4.3</version>
+                <version>3.4.4</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2023.0.3.2</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
