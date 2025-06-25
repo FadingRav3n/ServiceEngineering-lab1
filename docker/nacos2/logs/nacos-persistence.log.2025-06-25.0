@@ -1,0 +1,148 @@
+2025-06-25 16:08:58,930 WARN [master-db] jdbc:mysql://10.147.243.66:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+
+2025-06-25 18:46:30,240 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 18:47:10,330 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 18:47:50,349 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 18:48:30,348 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 18:49:10,349 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 22:44:26,196 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:15:50,502 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:16:30,501 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:17:10,489 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:17:50,506 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:18:30,506 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:19:10,502 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:19:50,593 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:20:30,612 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:21:10,664 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:21:50,697 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:22:30,697 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:23:10,694 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:23:50,694 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:24:30,690 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:25:10,691 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:25:50,691 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:26:30,692 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:27:10,693 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:27:50,690 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:28:30,691 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:29:10,691 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:29:50,688 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:30:30,688 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:31:10,688 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:31:50,687 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:32:30,687 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:33:10,687 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:33:50,685 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:34:30,684 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:35:10,684 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:35:50,701 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:36:30,718 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:37:10,723 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:37:50,722 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:38:30,723 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:39:10,723 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:39:50,721 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:40:30,720 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:41:10,721 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:41:50,735 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:42:30,735 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:43:10,736 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:43:50,735 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:44:30,747 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:45:10,748 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:45:50,747 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:46:30,748 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:47:10,750 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:47:50,750 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:48:30,752 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:49:10,753 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:49:50,752 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:50:30,753 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:51:10,753 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:51:50,753 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:52:30,754 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:53:10,755 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:53:50,755 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:54:30,757 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:55:10,757 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:55:50,756 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:56:30,757 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:57:10,759 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:57:50,758 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:58:30,759 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:59:10,761 ERROR [db-error] master db 10.147.243.66 down.
+
+2025-06-25 23:59:50,761 ERROR [db-error] master db 10.147.243.66 down.
+

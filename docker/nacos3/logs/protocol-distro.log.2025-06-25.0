@@ -1,0 +1,158 @@
+2025-06-25 16:08:55,541 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-06-25 16:08:56,544 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-06-25 16:08:57,558 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-06-25 16:08:58,560 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-06-25 16:08:59,560 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-06-25 16:09:00,563 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-06-25 16:09:01,576 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-06-25 16:09:02,579 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-06-25 16:09:03,582 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-06-25 16:09:04,585 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-06-25 16:09:05,539 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-06-25 16:09:05,593 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2025-06-25 16:09:05,595 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos1:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-06-25 16:09:05,596 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2025-06-25 16:09:05,597 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos2:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-06-25 16:09:05,597 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848
+
+2025-06-25 16:09:05,598 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos3:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-06-25 16:09:10,541 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-06-25 16:09:15,542 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-06-25 16:09:20,544 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-06-25 16:09:25,546 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-06-25 16:09:30,548 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-06-25 16:09:35,551 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-06-25 16:09:35,597 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2025-06-25 16:09:35,658 INFO [DISTRO-INIT] it took 61 ms to load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 and snapshot size is 25.
+
+2025-06-25 16:09:35,667 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 result: true
+
+2025-06-25 16:09:35,668 INFO [DISTRO-INIT] load snapshot data success
+
+2025-06-25 16:12:24,813 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1750839143576_172.30.0.1_35838', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2025-06-25 16:12:24,813 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1750839143576_172.30.0.1_35838', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos1:8848'}
+
+2025-06-25 16:12:24,813 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1750839143576_172.30.0.1_35838', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2025-06-25 16:12:24,854 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1750839143576_172.30.0.1_35838', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2025-06-25 16:12:24,906 INFO [DISTRO-END] DistroKey{resourceKey='1750839143576_172.30.0.1_35838', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos1:8848'} result: true
+
+2025-06-25 16:12:24,908 INFO [DISTRO-END] DistroKey{resourceKey='1750839143576_172.30.0.1_35838', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2025-06-25 16:12:24,908 INFO [DISTRO-END] DistroKey{resourceKey='1750839143576_172.30.0.1_35838', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2025-06-25 16:13:17,253 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1750839196829_172.30.0.1_56926', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2025-06-25 16:13:33,553 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1750839212406_172.30.0.1_49038', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2025-06-25 16:13:33,553 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1750839212406_172.30.0.1_49038', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos1:8848'}
+
+2025-06-25 16:13:33,553 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1750839212406_172.30.0.1_49038', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2025-06-25 16:13:33,557 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1750839212406_172.30.0.1_49038', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2025-06-25 16:13:33,560 INFO [DISTRO-END] DistroKey{resourceKey='1750839212406_172.30.0.1_49038', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2025-06-25 16:13:33,561 INFO [DISTRO-END] DistroKey{resourceKey='1750839212406_172.30.0.1_49038', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2025-06-25 16:13:33,562 INFO [DISTRO-END] DistroKey{resourceKey='1750839212406_172.30.0.1_49038', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos1:8848'} result: true
+
+2025-06-25 16:13:43,468 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1750839222253_172.30.0.1_55664', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2025-06-25 18:46:03,312 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1750839196829_172.30.0.1_56926', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2025-06-25 22:44:19,201 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1750839196829_172.30.0.1_56926', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2025-06-25 22:44:21,965 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1750839143576_172.30.0.1_35838', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos1:8848'}
+
+2025-06-25 22:44:21,969 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1750839212406_172.30.0.1_49038', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos1:8848'}
+
+2025-06-25 22:44:22,056 INFO [DISTRO-END] DistroKey{resourceKey='1750839143576_172.30.0.1_35838', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos1:8848'} result: true
+
+2025-06-25 22:44:22,091 INFO [DISTRO-END] DistroKey{resourceKey='1750839212406_172.30.0.1_49038', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos1:8848'} result: true
+
+2025-06-25 22:44:22,130 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1750839222253_172.30.0.1_55664', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2025-06-25 23:15:24,225 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1750839212406_172.30.0.1_49038', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2025-06-25 23:15:24,229 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1750839143576_172.30.0.1_35838', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2025-06-25 23:15:24,337 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1750839212406_172.30.0.1_49038', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos1:8848'}
+
+2025-06-25 23:15:24,349 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1750839143576_172.30.0.1_35838', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos1:8848'}
+
+2025-06-25 23:15:24,516 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1750839196829_172.30.0.1_56926', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2025-06-25 23:15:24,554 INFO [DISTRO-END] DistroKey{resourceKey='1750839143576_172.30.0.1_35838', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2025-06-25 23:15:24,616 INFO [DISTRO-END] DistroKey{resourceKey='1750839212406_172.30.0.1_49038', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2025-06-25 23:15:24,687 INFO [DISTRO-END] DistroKey{resourceKey='1750839212406_172.30.0.1_49038', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos1:8848'} result: true
+
+2025-06-25 23:15:24,855 INFO [DISTRO-END] DistroKey{resourceKey='1750839143576_172.30.0.1_35838', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos1:8848'} result: true
+
+2025-06-25 23:17:20,149 WARN task com.alibaba.nacos.core.distributed.distro.task.verify.DistroVerifyExecuteTask@31b22f17 takes 1302ms
+
+2025-06-25 23:17:20,224 WARN task com.alibaba.nacos.core.distributed.distro.task.verify.DistroVerifyExecuteTask@3bb7df10 takes 1215ms
+

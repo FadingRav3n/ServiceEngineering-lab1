@@ -1,0 +1,12 @@
+2025-06-26 00:20:25,757 INFO client 1750839222253_172.30.0.1_55664 is invalid, get new client from 172.30.0.5
+
+2025-06-26 00:20:25,939 INFO [Client-Add] Received distro client sync data 1750839222253_172.30.0.1_55664, revision=1
+
+2025-06-26 00:20:25,940 INFO [processBatchInstanceDistroData] BatchInstanceData is null , clientId is :1750839222253_172.30.0.1_55664
+
+2025-06-26 00:33:40,350 WARN [DISTRO] Cancel distro sync caused by target server nacos2:8848 unhealthy, key: DistroKey{resourceKey='1750839196829_172.30.0.1_56926', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2025-06-26 00:33:40,350 WARN [DISTRO] Cancel distro sync caused by target server nacos1:8848 unhealthy, key: DistroKey{resourceKey='1750839196829_172.30.0.1_56926', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos1:8848'}
+
+2025-06-26 00:33:40,350 WARN [DISTRO] Cancel distro sync caused by target server nacos3:8848 unhealthy, key: DistroKey{resourceKey='1750839196829_172.30.0.1_56926', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+

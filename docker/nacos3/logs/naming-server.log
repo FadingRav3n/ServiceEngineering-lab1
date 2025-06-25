@@ -1,0 +1,14 @@
+2025-06-26 00:33:38,934 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2025-06-26 00:33:39,120 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2025-06-26 00:33:39,332 INFO Client connection 1750839143576_172.30.0.1_35838 disconnect, remove instances and subscribers
+
+2025-06-26 00:33:39,360 INFO Client connection 1750838949823_172.30.0.4_45342 disconnect, remove instances and subscribers
+
+2025-06-26 00:33:39,365 INFO Client connection 1750839212406_172.30.0.1_49038 disconnect, remove instances and subscribers
+
+2025-06-26 00:33:39,375 INFO Client connection 1750838949865_172.30.0.5_42950 disconnect, remove instances and subscribers
+
+2025-06-26 00:33:39,380 INFO Client connection 1750838950818_172.30.0.3_59418 disconnect, remove instances and subscribers
+

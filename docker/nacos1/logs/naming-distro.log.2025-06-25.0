@@ -1,0 +1,60 @@
+2025-06-25 16:12:24,859 INFO [Client-Add] Received distro client sync data 1750839143576_172.30.0.1_35838, revision=1
+
+2025-06-25 16:12:24,870 INFO [processBatchInstanceDistroData] BatchInstanceData is null , clientId is :1750839143576_172.30.0.1_35838
+
+2025-06-25 16:13:17,213 INFO Target nacos3:8848 verify client 1750839196829_172.30.0.1_56926 failed, sync new client
+
+2025-06-25 16:13:17,267 INFO Target nacos2:8848 verify client 1750839196829_172.30.0.1_56926 failed, sync new client
+
+2025-06-25 16:13:18,032 INFO [Client-Add] Received distro client sync data 1750839196829_172.30.0.1_56926, revision=1
+
+2025-06-25 16:13:18,033 INFO [processBatchInstanceDistroData] BatchInstanceData is null , clientId is :1750839196829_172.30.0.1_56926
+
+2025-06-25 16:13:33,558 INFO [Client-Add] Received distro client sync data 1750839212406_172.30.0.1_49038, revision=1
+
+2025-06-25 16:13:33,559 INFO [processBatchInstanceDistroData] BatchInstanceData is null , clientId is :1750839212406_172.30.0.1_49038
+
+2025-06-25 16:13:43,469 INFO [Client-Add] Received distro client sync data 1750839222253_172.30.0.1_55664, revision=1
+
+2025-06-25 16:13:43,469 INFO [processBatchInstanceDistroData] BatchInstanceData is null , clientId is :1750839222253_172.30.0.1_55664
+
+2025-06-25 18:46:03,073 INFO Target nacos2:8848 verify client 1750839196829_172.30.0.1_56926 failed, sync new client
+
+2025-06-25 18:46:03,164 INFO Target nacos3:8848 verify client 1750839196829_172.30.0.1_56926 failed, sync new client
+
+2025-06-25 22:44:19,091 INFO Target nacos3:8848 verify client 1750839196829_172.30.0.1_56926 failed, sync new client
+
+2025-06-25 22:44:21,917 INFO client 1750839212406_172.30.0.1_49038 is invalid, get new client from 172.30.0.3
+
+2025-06-25 22:44:21,918 INFO client 1750839143576_172.30.0.1_35838 is invalid, get new client from 172.30.0.3
+
+2025-06-25 22:44:21,967 INFO client 1750839222253_172.30.0.1_55664 is invalid, get new client from 172.30.0.5
+
+2025-06-25 22:44:22,053 INFO [Client-Add] Received distro client sync data 1750839143576_172.30.0.1_35838, revision=1
+
+2025-06-25 22:44:22,053 INFO [processBatchInstanceDistroData] BatchInstanceData is null , clientId is :1750839143576_172.30.0.1_35838
+
+2025-06-25 22:44:22,077 INFO [Client-Add] Received distro client sync data 1750839212406_172.30.0.1_49038, revision=1
+
+2025-06-25 22:44:22,077 INFO [processBatchInstanceDistroData] BatchInstanceData is null , clientId is :1750839212406_172.30.0.1_49038
+
+2025-06-25 22:44:22,140 INFO [Client-Add] Received distro client sync data 1750839222253_172.30.0.1_55664, revision=1
+
+2025-06-25 22:44:22,140 INFO [processBatchInstanceDistroData] BatchInstanceData is null , clientId is :1750839222253_172.30.0.1_55664
+
+2025-06-25 23:15:23,376 INFO client 1750839212406_172.30.0.1_49038 is invalid, get new client from 172.30.0.3
+
+2025-06-25 23:15:23,468 INFO client 1750839143576_172.30.0.1_35838 is invalid, get new client from 172.30.0.3
+
+2025-06-25 23:15:24,318 INFO Target nacos3:8848 verify client 1750839196829_172.30.0.1_56926 failed, sync new client
+
+2025-06-25 23:15:24,369 INFO Target nacos2:8848 verify client 1750839196829_172.30.0.1_56926 failed, sync new client
+
+2025-06-25 23:15:24,595 INFO [Client-Add] Received distro client sync data 1750839212406_172.30.0.1_49038, revision=1
+
+2025-06-25 23:15:24,595 INFO [processBatchInstanceDistroData] BatchInstanceData is null , clientId is :1750839212406_172.30.0.1_49038
+
+2025-06-25 23:15:24,849 INFO [Client-Add] Received distro client sync data 1750839143576_172.30.0.1_35838, revision=1
+
+2025-06-25 23:15:24,850 INFO [processBatchInstanceDistroData] BatchInstanceData is null , clientId is :1750839143576_172.30.0.1_35838
+

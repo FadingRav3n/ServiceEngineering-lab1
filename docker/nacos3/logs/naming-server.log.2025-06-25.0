@@ -1,0 +1,58 @@
+2025-06-25 16:08:56,388 INFO [NACOS-DISTRO] healthy server list changed, old: [172.30.0.3:8848, nacos1:8848, nacos2:8848, nacos3:8848], new: [172.30.0.3:8848, nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-06-25 16:09:03,539 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2025-06-25 16:09:03,539 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2025-06-25 16:09:03,541 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2025-06-25 16:09:03,541 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2025-06-25 16:09:05,004 INFO Load instance extension handler []
+
+2025-06-25 16:09:14,431 INFO [NACOS-DISTRO] healthy server list changed, old: [172.30.0.3:8848, nacos1:8848, nacos2:8848, nacos3:8848], new: [172.30.0.3:8848, nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-06-25 16:09:16,444 INFO [NACOS-DISTRO] healthy server list changed, old: [172.30.0.3:8848, nacos1:8848, nacos2:8848, nacos3:8848], new: [172.30.0.3:8848, nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-06-25 16:09:18,476 INFO [NACOS-DISTRO] healthy server list changed, old: [172.30.0.3:8848, nacos1:8848, nacos2:8848, nacos3:8848], new: [172.30.0.3:8848, nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-06-25 16:12:23,699 INFO Client connection 1750839143576_172.30.0.1_35838 connect
+
+2025-06-25 16:12:23,756 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='consumer-service', ephemeral=true, revision=0}, 1750839143576_172.30.0.1_35838
+
+2025-06-25 16:13:17,260 INFO Client connection 1750839196829_172.30.0.1_56926 connect
+
+2025-06-25 16:13:17,260 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='consumer-service', ephemeral=true, revision=1}, 1750839196829_172.30.0.1_56926
+
+2025-06-25 16:13:32,507 INFO Client connection 1750839212406_172.30.0.1_49038 connect
+
+2025-06-25 16:13:32,549 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='provider-service', ephemeral=true, revision=0}, 1750839212406_172.30.0.1_49038
+
+2025-06-25 16:13:43,470 INFO Client connection 1750839222253_172.30.0.1_55664 connect
+
+2025-06-25 16:13:43,470 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='provider-service', ephemeral=true, revision=1}, 1750839222253_172.30.0.1_55664
+
+2025-06-25 18:46:01,506 INFO Client connection 1750839196829_172.30.0.1_56926 disconnect, remove instances and subscribers
+
+2025-06-25 18:46:03,334 INFO Client connection 1750839196829_172.30.0.1_56926 connect
+
+2025-06-25 18:46:03,334 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='consumer-service', ephemeral=true, revision=3}, 1750839196829_172.30.0.1_56926
+
+2025-06-25 19:01:52,510 INFO Client connection 1750839222253_172.30.0.1_55664 disconnect, remove instances and subscribers
+
+2025-06-25 19:01:52,510 INFO Client connection 1750839196829_172.30.0.1_56926 disconnect, remove instances and subscribers
+
+2025-06-25 22:44:19,238 INFO Client connection 1750839196829_172.30.0.1_56926 connect
+
+2025-06-25 22:44:19,238 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='consumer-service', ephemeral=true, revision=5}, 1750839196829_172.30.0.1_56926
+
+2025-06-25 22:44:22,169 INFO Client connection 1750839222253_172.30.0.1_55664 connect
+
+2025-06-25 22:44:22,170 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='provider-service', ephemeral=true, revision=3}, 1750839222253_172.30.0.1_55664
+
+2025-06-25 23:15:23,167 INFO Client connection 1750839196829_172.30.0.1_56926 disconnect, remove instances and subscribers
+
+2025-06-25 23:15:24,561 INFO Client connection 1750839196829_172.30.0.1_56926 connect
+
+2025-06-25 23:15:24,561 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='consumer-service', ephemeral=true, revision=7}, 1750839196829_172.30.0.1_56926
+

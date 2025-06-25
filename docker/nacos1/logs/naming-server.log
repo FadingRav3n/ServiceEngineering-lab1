@@ -1,0 +1,31 @@
+2025-06-26 00:20:24,475 INFO Client connection 1750839222253_172.30.0.1_55664 disconnect, remove instances and subscribers
+
+2025-06-26 00:20:25,940 INFO Client connection 1750839222253_172.30.0.1_55664 connect
+
+2025-06-26 00:20:25,940 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='provider-service', ephemeral=true, revision=9}, 1750839222253_172.30.0.1_55664
+
+2025-06-26 00:33:38,777 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2025-06-26 00:33:39,025 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2025-06-26 00:33:39,271 INFO Client connection 1750839196829_172.30.0.1_56926 disconnect, remove instances and subscribers
+
+2025-06-26 00:33:39,336 INFO Client connection 1750838951049_172.30.0.4_55236 disconnect, remove instances and subscribers
+
+2025-06-26 00:33:39,343 INFO Client connection 1750838951916_172.30.0.5_50016 disconnect, remove instances and subscribers
+
+2025-06-26 00:33:39,344 INFO Client connection 1750838951436_172.30.0.3_48226 disconnect, remove instances and subscribers
+
+2025-06-26 00:33:40,607 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)

@@ -1,0 +1,4 @@
+2025-06-25 23:15:23,087 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='consumer-service', ephemeral=true, revision=6}
+
+2025-06-25 23:15:24,595 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='consumer-service', ephemeral=true, revision=8}
+

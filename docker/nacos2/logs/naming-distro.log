@@ -1,0 +1,8 @@
+2025-06-26 00:20:25,765 INFO Target nacos1:8848 verify client 1750839222253_172.30.0.1_55664 failed, sync new client
+
+2025-06-26 00:33:40,255 WARN [DISTRO] Cancel distro sync caused by target server nacos1:8848 unhealthy, key: DistroKey{resourceKey='1750839222253_172.30.0.1_55664', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos1:8848'}
+
+2025-06-26 00:33:40,255 WARN [DISTRO] Cancel distro sync caused by target server nacos3:8848 unhealthy, key: DistroKey{resourceKey='1750839222253_172.30.0.1_55664', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2025-06-26 00:33:40,259 WARN [DISTRO] Cancel distro sync caused by target server nacos2:8848 unhealthy, key: DistroKey{resourceKey='1750839222253_172.30.0.1_55664', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
